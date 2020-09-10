@@ -1,0 +1,69 @@
+@import '~antd/dist/antd.css';
+
+*{
+  font-family: sans-serif;
+}
+p{
+  color: white;
+  font-weight: bold;
+}
+ input{
+  margin:10px;
+}
+
+.tweetClass{
+  margin:25px; 
+}
+
+.bName{
+  font-size:35px;
+  text-align: center;
+  color:whitesmoke;
+}
+.bHead{
+  width:100%;
+  text-align:center;
+}
+.bTweet{
+  margin:10px;
+  padding:5px;
+  width:100px;
+}
+
+.ant-input-prefix .anticon svg{
+  display: none;
+}
+.ant-input-affix-wrapper{
+  width:50%;
+  border-radius: 10px;
+  margin:10px
+}
+.ant-picker{
+  margin:10px;
+  border-radius: 10px;
+}
+
+.ant-card-head{
+  background:#1b97e4;
+  
+}
+.ant-card-body{
+ background:darkslategrey;
+}
+.ant-card{
+  border-radius:10px;
+}
+
+.cardAlign{
+  display: flex !important;
+  flex-wrap: wrap !important;
+  margin:25px;
+}
+
+.ant-input-affix-wrapper .ant-input-affix-wrapper-lg{
+  margin:10px !important;
+} 
+
+/* 
+display: flex;
+    flex-wrap: wrap; */
